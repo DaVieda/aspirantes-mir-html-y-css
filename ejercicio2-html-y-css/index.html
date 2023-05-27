@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <p>Este es un párrafo</p>
+    <form action="" class="formulario">
+        <h1>Login</h1>
+        
+        <!--Etiquetas y controles:      -->
+        <label for="email">Email</label>
+          <input class="control" type="text" id="email" name="email">
+        
+        <label for="pass">Password</label>
+          <input class="control" type="password" id="pass" name="password">
+        
+        <label for="genero">Género</label>
+          <select class="control" name="genero" id="genero">
+            <option value="masculino">Hombre</option>
+            <option value="femenino">Mujer</option>
+          </select>
+        
+        <p>
+          <input type="checkbox" id="terminos" name="términos">
+          <label for="terminos">Acepto los érminos</label>
+        </p>
+          
+        <button class="boton" type="submit">Ingresar</button>
+      </form>
   </body>
 </html>
