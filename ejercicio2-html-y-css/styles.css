@@ -9,7 +9,6 @@ h1 {
 }
 
 .formulario {
-  /* position: relative; */
   width: 100%;
   background-image: linear-gradient(#3a8ada 20%, #17046e);
   padding: 20px;
@@ -41,6 +40,6 @@ h1 {
   width: auto;
   padding: 5px 15px;
   margin: 20px 0px 0px 176px;
-  */ margin-top: 20px;
+  margin-top: 20px;
 }
 
